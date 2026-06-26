@@ -34,7 +34,7 @@ jobs:
         run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug --no-daemon --stacktrace
+        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
