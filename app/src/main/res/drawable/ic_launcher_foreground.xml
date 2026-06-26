@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="2.5" android:scaleY="2.5" android:translateX="24" android:translateY="24">
+        <!-- Drop shadow -->
+        <path
+            android:fillColor="#4D000000"
+            android:pathData="M12,2L3,6v6c0,5.55 3.84,10.74 9,12c5.16,-1.26 9,-6.45 9,-12V6L12,2z" />
+        
+        <!-- Shield Background -->
+        <path
+            android:fillColor="#E6C200" 
+            android:pathData="M12,1L3,5v6c0,5.55 3.84,10.74 9,12c5.16,-1.26 9,-6.45 9,-12V5L12,1z"/>
+            
+        <!-- Shield Inner detailing (slightly darker) -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M12,3L4.5,6.5v4.5c0,4.6 2.9,8.8 7.5,10c4.6,-1.2 7.5,-5.4 7.5,-10V6.5L12,3z"/>
+
+        <!-- Checkmark -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M16.59,7.58L10,14.17l-3.59,-3.58L5,12l5,5l8,-8z"/>
+    </group>
+</vector>

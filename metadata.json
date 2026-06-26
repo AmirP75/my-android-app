@@ -1,0 +1,6 @@
+{
+  "name": "QuestLog",
+  "description": "یک بازی زندگی روزانه با ماموریت‌های اصلی و فرعی، کسب سکه و تغییر تم‌های غنی با استایل سه بعدی جذاب.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
